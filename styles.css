@@ -1,0 +1,395 @@
+
+/* Work Sans font from google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* shared Styles */
+
+
+* {
+    margin: 0 auto;
+    font-family: "Work Sans", sans-serif;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    font-family: 600;
+    font-size: 1.25rem;
+    padding: 20px 25px;
+    background-color: rgb(255, 144, 14);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(124, 121, 116, 0.1);
+    padding: 50px 12.5%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: rgb(19, 19, 19);
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+
+/* Banner Styles */
+
+.banner-content {
+    max-width: 60%;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.banner-title {
+    color: rgb(19, 19, 19);
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: rgb(114, 114, 114);
+    margin: 30px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* Main Section Styles */
+main {
+    padding: 0 12.5%;
+}
+
+/* Features Styles */
+.team-section {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.team-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-right: 70px;
+}
+
+.team-title {
+    font-size: 2.8rem;
+}
+
+.team-title .quick-list {
+    font-weight: 500;
+    color: rgb(114, 114, 114);
+}
+
+.team-title .of-our {
+    font-weight: 700;
+    color: rgb(19, 19, 19);
+}
+
+.team-title .text-feature {
+    font-weight: 700;
+    color: rgb(255, 144, 14);
+}
+
+.team-description {
+    margin: 1.5rem 0;
+    color: rgb(114, 114, 114);
+}
+
+/* Facts Section */
+.facts {
+    margin-top: 100px;
+}
+
+.facts>h3 {
+    color: rgb(19, 19, 19);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.facts>p {
+    color: rgb(114, 114, 114);
+    width: 40%;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.facts-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts-container .card {
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.facts-container h2 {
+    color: rgb(66, 66, 66);
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.facts-container p {
+    color: rgb(114, 114, 114);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* Feature Styles */
+.features {
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.feature-content>h3 {
+    color: rgb(19, 19, 19);
+    font-size: 3rem;
+    font-weight: 700;
+    border-left: 5px solid rgb(255, 144, 14);
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.feature-content>p {
+    color: rgb(114, 114, 114);
+}
+
+.feature-topic {
+    margin: 20px 0;
+    padding: 30px;
+    background-color: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.feature-topic>h4 {
+    color: rgb(19, 19, 19);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.feature-topic>p {
+    color: rgb(114, 114, 114);
+    margin-top: 10px;
+}
+
+.feature-img img {
+    width: 100%;
+    margin-left: 50px;
+}
+
+.feature-content {
+    width: 65%;
+}
+
+.ten-year {
+    background-color: rgb(255, 144, 14);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 40px;
+    width: 200px;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+}
+
+.ten-year h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.ten-year p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* Sponsors Styles */
+.sponsors {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.sponsors>h3 {
+    color: rgb(19, 19, 19);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.sponsors>p {
+    color: rgb(114, 114, 114);
+    margin: 20px auto;
+    width: 50%;
+}
+
+.sponsors-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+/* Footer Section Styles */
+
+footer {
+    background-color: rgb(255, 244, 231);
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border-radius: 8px;
+    margin: 100px 12.5%;
+}
+
+/* Responsive Media Queries */
+
+/* Mobile devices */
+@media screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-title {
+        margin-bottom: 10px;
+    }
+
+    .banner-content {
+        max-width: 100%;
+        margin: 30px auto;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    .team-section {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .team-img {
+        grid-template-columns: 1fr;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .facts-container {
+        flex-direction: column;
+    }
+
+    .facts-container .card {
+        margin-top: 20px;
+        width: 50%;
+    }
+
+    .facts h3 {
+        font-size: 2rem;
+        padding-left: 10%;
+    }
+
+    .facts p {
+        width: 80%;
+        text-align: left;
+        padding-left: 10%;
+        margin-bottom: 30px;
+    }
+
+    .sponsors-img {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .sponsors-img img {
+        width: 100px;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .feature-content>h3 {
+        font-size: 2rem;
+    }
+
+    .feature-content {
+        width: 100%;
+    }
+
+    .feature-topic {
+        width: 100%;
+    }
+}
+
+/* Tablet or Medium devices */
+
+@media screen and (min-width:577px) and (max-width:960px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-title {
+        margin-bottom: 10px;
+    }
+
+    .banner-content {
+        max-width: 100%;
+        margin: 30px auto;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+    }
+
+    main {
+        padding: 0 5%;
+    }
+
+    .team-section {
+        flex-direction: column;
+    }
+
+    .team-img {
+        margin-bottom: 30px;
+    }
+
+    .sponsors-img img {
+        width: 100px;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+}
